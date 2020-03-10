@@ -10,9 +10,11 @@
             <br>
             <a href='index.php?ex3=true'>Exercise 3</a>
             <br>
-            <a href='index.php?form=true'>Information Form</a>
+            <a href='week2/infoform.html'>Information Form</a>
             <br>
             <a href='week2/registrationform.php'>Registration</a>
+            <br>
+            <a href='week2/form4radio.html'>Form For Radio</a>
             <br>
             <a href='week1/profile.php'>
                 Profile

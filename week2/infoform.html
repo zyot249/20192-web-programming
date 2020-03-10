@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Information Form</h1>
+        <hr>
+        <form action="displayform.php" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <span>Username:</span>
+                    </td>
+                    <td>
+                        <input type="text" name="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Class:</span>
+                    </td>
+                    <td>
+                        <input type="text" name="class">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Major:</span>
+                    </td>
+                    <td>
+                        <input type="text" name="major">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>University:</span>
+                    </td>
+                    <td>
+                        <input type="text" name="university">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <span>Hobbies:</span>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="hbGame" name="hbGame" value="Game">
+                                <label for="hbGame">Game</label>
+                            </li> 
+                            <li>
+                                <input type="checkbox" id="hbSport" name="hbSport" value="Sport">
+                                <label for="hbSport" >Sport</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="hbMusic" name="hbMusic" value="Music">
+                                <label for="hbMusic" >Music</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <span>Programming Languages:</span>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="plJs" name="plJs" value="JavaScript">
+                                <label for="plJs">JavaScript</label>
+                            </li> 
+                            <li>
+                                <input type="checkbox" id="plJava" name="plJava" value="Java">
+                                <label for="plJava">Java</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="plPhp" name="plPhp" value="PHP">
+                                <label for="plPhp">PHP</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
