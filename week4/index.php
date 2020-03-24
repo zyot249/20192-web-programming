@@ -10,5 +10,7 @@
     <a href="TunaCafe.php">Exercise 1</a>
     <br>
     <a href="DriveDistance.php">Exercise 2</a>
+    <br>
+    <a href="UserSorting.php">Exercise 3</a>
   </body>
 </html>
