@@ -10,7 +10,9 @@
 				<br>
 				<a href="week3/index.php">Lab 03</a>
 				<br>
-				<a href="week4/index.php">Lab 04</a> 
+				<a href="week4/index.php">Lab 04</a>
+				<br>
+				<a href="week5/index.php">Lab 05</a>
 			</div>
 			<?php
 			print ("<br> Using PHP is not hard<br>");
