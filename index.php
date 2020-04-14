@@ -13,6 +13,10 @@
 				<a href="week4/index.php">Lab 04</a>
 				<br>
 				<a href="week5/index.php">Lab 05</a>
+				<br>
+				<a href="week6/index.php">Lab 06</a>
+				<br>
+				<a href="week7/index.php">Lab 07</a>
 			</div>
 			<?php
 			print ("<br> Using PHP is not hard<br>");
