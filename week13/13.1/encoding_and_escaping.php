@@ -1,5 +1,5 @@
 <?php
-  $input = "\"Stop pulling my hair!\" Jane's eyes flashed.<p>"
+  $input = "\"Stop pulling my hair!\" Jane's eyes flashed.<p>";
   $double = htmlentities($input);
   //&quot;Stop pulling my hair!&quot; Jane's eyes flashed.&lt;p&gt;
   $both = htmlentities($input, ENT_QUOTES);
